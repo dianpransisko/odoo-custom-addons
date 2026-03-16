@@ -6,7 +6,8 @@ Repository ini berisi kumpulan modul tambahan (addons) yang dikembangkan untuk *
 
 ### 1. Hue Backend Theme
 * **Folder:** `hue_backend_theme`
-* **Fungsi:** Merombak tampilan backend Odoo menjadi lebih modern dan elegan dengan fitur sidebar yang responsif.
+* **Fungsi:** View / Tampilan backend Odoo menjadi lebih modern dan elegan dengan fitur sidebar yang responsif.
+               Theme by : <https://www.cybrosys.com>
 * **Fitur Utama:** Custom color palette, modern login page, dan sidebar navigation.
 
 ### 2. Modul Tambahan KTP
