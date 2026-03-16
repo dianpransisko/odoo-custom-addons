@@ -1,5 +1,5 @@
-![alt text](image.png)
 
+![PROFILE IMAGE](C:\Users\ASUS\Pictures\Screenshots\theme.png)
 # Odoo 17 Custom Addons Collection
 Repository ini berisi kumpulan modul tambahan (addons) yang dikembangkan untuk **Odoo 17 Community/Enterprise**. Modul-modul ini bertujuan untuk meningkatkan fungsionalitas standar dan memperbaiki antarmuka pengguna (UI).
 
@@ -11,7 +11,7 @@ Repository ini berisi kumpulan modul tambahan (addons) yang dikembangkan untuk *
                Theme by : <https://www.cybrosys.com>
 * **Fitur Utama:** Custom color palette, modern login page, dan sidebar navigation.
 
-### 2. Modul Tambahan KTP
+### 2. Modul Tambahan KTP & NPWP
 * **Folder:** `ktp_management` (sesuaikan dengan nama foldermu)
 * **Fungsi:** Menambahkan field identitas NIK dan fitur upload foto KTP pada formulir Kontak (res.partner).
 * **Fokus:** Validasi data pelanggan/karyawan yang lebih akurat.
