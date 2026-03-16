@@ -18,4 +18,4 @@ Repository ini berisi kumpulan modul tambahan (addons) yang dikembangkan untuk *
 
 1. **Clone Repository:**
    ```bash
-   git clone -b 17.0 [https://github.com/username-kamu/odoo-custom-addons.git](https://github.com/username-kamu/odoo-custom-addons.git)
+   git clone -b 17.0 [https://github.com/dianpransisko/odoo-custom-addons.git](https://github.com/dianpransisko/odoo-custom-addons.git)
