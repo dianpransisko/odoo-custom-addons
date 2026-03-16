@@ -1,5 +1,6 @@
-# Odoo 17 Custom Addons Collection
+![alt text](image.png)
 
+# Odoo 17 Custom Addons Collection
 Repository ini berisi kumpulan modul tambahan (addons) yang dikembangkan untuk **Odoo 17 Community/Enterprise**. Modul-modul ini bertujuan untuk meningkatkan fungsionalitas standar dan memperbaiki antarmuka pengguna (UI).
 
 ## 🚀 Daftar Modul
