@@ -1,0 +1,13 @@
+# Python bytecode (file sampah hasil compile python)
+**/__pycache__/
+*.py[cod]
+
+# Odoo logs
+*.log
+
+# Mac & Windows system files
+.DS_Store
+Thumbs.db
+
+# VS Code settings
+.vscode/

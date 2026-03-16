@@ -1,0 +1,1 @@
+from . import product_template  # Gantilah 'product_template' dengan nama file .py kamu
