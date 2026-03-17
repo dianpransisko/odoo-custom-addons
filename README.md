@@ -18,7 +18,7 @@ Repository ini berisi kumpulan modul tambahan (addons) yang dikembangkan untuk *
 
 ### 3. Modul WA otomatis dari Odoo ke pembeli / penjual (res.partner)
 * **Folder:** `whatsapp_integration`
-* **Fungsi:** Menambahkan fitur untuk bagian sales atau keuangan untuk kirim notifikasi melalui whastapp mereka.
+* **Fungsi:** Menambahkan fitur untuk bagian sales atau keuangan untuk kirim notifikasi melalui whastapp mereka dengan API testing fonnte
 * **Fokus:** untuk notifikasi dan pemberitahuan langsung ke penjual atau pembeli melalui whatsapp.
 
 ## 🛠️ Cara Instalasi
