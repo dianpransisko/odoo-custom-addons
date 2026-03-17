@@ -16,6 +16,11 @@ Repository ini berisi kumpulan modul tambahan (addons) yang dikembangkan untuk *
 * **Fungsi:** Menambahkan field identitas NIK dan fitur upload foto KTP pada formulir Kontak (res.partner).
 * **Fokus:** Validasi data pelanggan/karyawan yang lebih akurat.
 
+### 3. Modul WA otomatis dari Odoo ke pembeli / penjual (res.partner)
+* **Folder:** `ktp_management` (sesuaikan dengan nama foldermu)
+* **Fungsi:** Menambahkan field identitas NIK dan fitur upload foto KTP pada formulir Kontak (res.partner).
+* **Fokus:** Validasi data pelanggan/karyawan yang lebih akurat.
+
 ## 🛠️ Cara Instalasi
 
 1. **Clone Repository:**
