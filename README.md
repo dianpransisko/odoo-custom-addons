@@ -12,14 +12,14 @@ Repository ini berisi kumpulan modul tambahan (addons) yang dikembangkan untuk *
 * **Fitur Utama:** Custom color palette, modern login page, dan sidebar navigation.
 
 ### 2. Modul Tambahan KTP & NPWP
-* **Folder:** `ktp_management` (sesuaikan dengan nama foldermu)
+* **Folder:** `ktp_management` 
 * **Fungsi:** Menambahkan field identitas NIK dan fitur upload foto KTP pada formulir Kontak (res.partner).
 * **Fokus:** Validasi data pelanggan/karyawan yang lebih akurat.
 
 ### 3. Modul WA otomatis dari Odoo ke pembeli / penjual (res.partner)
-* **Folder:** `ktp_management` (sesuaikan dengan nama foldermu)
-* **Fungsi:** Menambahkan field identitas NIK dan fitur upload foto KTP pada formulir Kontak (res.partner).
-* **Fokus:** Validasi data pelanggan/karyawan yang lebih akurat.
+* **Folder:** `whatsapp_integration`
+* **Fungsi:** Menambahkan fitur untuk bagian sales atau keuangan untuk kirim notifikasi melalui whastapp mereka.
+* **Fokus:** untuk notifikasi dan pemberitahuan langsung ke penjual atau pembeli melalui whatsapp.
 
 ## 🛠️ Cara Instalasi
 
