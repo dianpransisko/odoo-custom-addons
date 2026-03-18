@@ -21,6 +21,13 @@ Repository ini berisi kumpulan modul tambahan (addons) yang dikembangkan untuk *
 * **Fungsi:** Menambahkan fitur untuk bagian sales atau keuangan untuk kirim notifikasi melalui whastapp mereka dengan API testing fonnte
 * **Fokus:** untuk notifikasi dan pemberitahuan langsung ke penjual atau pembeli melalui whatsapp.
 
+### 4. Modul ODoo ERP Real-Time Synchronizer API marketplace with Anti-Overselling Engine
+* **Folder:** `whatsapp_integration`
+* **Fungsi:** Mengurangi beban administrasi dengan mengotomatisasi pembuatan dokumen penjualan, Sinkronisasi Stok Instan (Event-Driven), Transaksional & Concurrency Control, Mengunci baris database produk (FOR UPDATE NOWAIT) saat proses reservasi pesanan online
+* **Fokus:** untuk alur kirim dan terima stok dari erp odoo ke API e-commerce
+👉 [**Baca Dokumentasi Lengkap di Academia.edu**](https://www.academia.edu/165219258/MODUL_INTEGRASI_ODOO_API_e_commerce_)
+
+
 ## 🛠️ Cara Instalasi
 
 1. **Clone Repository:**
