@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <menuitem id="menu_ecommerce_root" 
+              name="Ecommerce Sync" 
+              web_icon="ecommerce_integrated_odoo,static/description/icon.png"
+              sequence="10"/>
+
+    <menuitem id="menu_ecommerce_operations" 
+              name="Operations" 
+              parent="menu_ecommerce_root" 
+              sequence="10"/>
+
+    <record id="action_sync_stock_server" model="ir.actions.server">
+        <field name="name">Sync Stock to API</field>
+        <field name="model_id" ref="model_ecommerce_connector"/>
+        <field name="state">code</field>
+        <field name="code">model.sync_product_stock()</field>
+    </record>
+
+    <menuitem id="menu_ecommerce_sync_stock" 
+              name="Push Stock to Ecommerce" 
+              parent="menu_ecommerce_operations" 
+              action="action_sync_stock_server" 
+              sequence="20"/>
+</odoo>

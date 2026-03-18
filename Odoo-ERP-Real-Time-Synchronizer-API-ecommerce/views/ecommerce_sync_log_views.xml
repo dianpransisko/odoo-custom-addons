@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="view_ecommerce_sync_log_tree" model="ir.ui.view">
+        <field name="name">ecommerce.sync.log.tree</field>
+        <field name="model">ecommerce.sync.log</field>
+        <field name="arch" type="xml">
+            <tree decoration-danger="status == 'failed'" decoration-success="status == 'success'">
+                <field name="create_date" string="Waktu"/>
+                <field name="name"/>
+                <field name="operation_type"/>
+                <field name="external_ref"/>
+                <field name="status" widget="badge" decoration-danger="status == 'failed'" decoration-success="status == 'success'"/>
+                <field name="message"/>
+            </tree>
+        </field>
+    </record>
+
+    <record id="action_ecommerce_sync_log" model="ir.actions.act_window">
+        <field name="name">Sync Logs</field>
+        <field name="res_model">ecommerce.sync.log</field>
+        <field name="view_mode">tree,form</field>
+    </record>
+
+    <menuitem id="menu_ecommerce_sync_log" 
+              name="Sync Logs" 
+              parent="menu_ecommerce_operations" 
+              action="action_ecommerce_sync_log" 
+              sequence="20"/>
+</odoo>

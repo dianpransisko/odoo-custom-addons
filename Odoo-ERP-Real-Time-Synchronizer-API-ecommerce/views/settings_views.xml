@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="res_config_settings_view_form_ecommerce" model="ir.ui.view">
+        <field name="name">res.config.settings.view.form.ecommerce.inherit</field>
+        <field name="model">res.config.settings</field>
+        <field name="priority" eval="90"/>
+        <field name="inherit_id" ref="base.res_config_settings_view_form"/>
+        <field name="arch" type="xml">
+            <xpath expr="//form" position="inside">
+                <app string="Ecommerce Integration" name="ecommerce_integrated_odoo">
+                    <block title="Ecommerce API Configuration" name="ecommerce_api_config">
+                        <setting string="API Credentials" help="Atur koneksi ke Mock API Anda">
+                            <div class="content-group">
+                                <div class="mt16">
+                                    <label for="ecommerce_api_url" string="API URL" class="col-lg-3 o_light_label"/>
+                                    <field name="ecommerce_api_url" placeholder="http://127.0.0.1:8000"/>
+                                </div>
+                                <div class="mt8">
+                                    <label for="ecommerce_api_token" string="API Token" class="col-lg-3 o_light_label"/>
+                                    <field name="ecommerce_api_token" password="True"/>
+                                </div>
+                                <div class="mt16">
+                                    <button name="action_test_connection" 
+                                            type="object" 
+                                            string="Test Connection" 
+                                            class="btn-primary" 
+                                            icon="fa-refresh"/>
+                                </div>
+                            </div>
+                        </setting>
+                    </block>
+                </app>
+            </xpath>
+        </field>
+    </record>
+</odoo>
