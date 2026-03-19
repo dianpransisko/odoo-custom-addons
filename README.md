@@ -25,7 +25,7 @@ Repository ini berisi kumpulan modul tambahan (addons) yang dikembangkan untuk *
 * **Folder:** `whatsapp_integration`
 * **Fungsi:** Mengurangi beban administrasi dengan mengotomatisasi pembuatan dokumen penjualan, Sinkronisasi Stok Instan (Event-Driven), Transaksional & Concurrency Control, Mengunci baris database produk (FOR UPDATE NOWAIT) saat proses reservasi pesanan online
 * **Fokus:** untuk alur kirim dan terima stok dari erp odoo ke API e-commerce
-👉 [**Baca Dokumentasi Lengkap di Academia.edu**](https://www.academia.edu/165219258/MODUL_INTEGRASI_ODOO_API_e_commerce_)
+👉 [**Baca Dokumentasi Lengkap di Academia.edu**](https://www.academia.edu/165230608/MODUL_INTEGRASI_ODOO_API)
 
 
 ## 🛠️ Cara Instalasi
