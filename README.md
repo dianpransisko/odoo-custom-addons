@@ -22,7 +22,7 @@ Repository ini berisi kumpulan modul tambahan (addons) yang dikembangkan untuk *
 * **Fokus:** untuk notifikasi dan pemberitahuan langsung ke penjual atau pembeli melalui whatsapp.
 
 ### 4. Modul ODoo ERP Real-Time Synchronizer API marketplace with Anti-Overselling Engine
-* **Folder:** `whatsapp_integration`
+* **Folder:** `Odoo-ERP-Real-Time-Synchronizer-API-`
 * **Fungsi:** Mengurangi beban administrasi dengan mengotomatisasi pembuatan dokumen penjualan, Sinkronisasi Stok Instan (Event-Driven), Transaksional & Concurrency Control, Mengunci baris database produk (FOR UPDATE NOWAIT) saat proses reservasi pesanan online
 * **Fokus:** untuk alur kirim dan terima stok dari erp odoo ke API e-commerce
 👉 [**Baca Dokumentasi Lengkap di **](https://zenodo.org/records/19091142)
